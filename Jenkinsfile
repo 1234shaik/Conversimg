@@ -9,7 +9,7 @@ pipeline {
 
     stage('gradle build') {
           steps {
-            bat "gradle build"
+            bat "gradlew build"
           }
     }
   }
